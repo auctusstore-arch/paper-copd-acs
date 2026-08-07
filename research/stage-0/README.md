@@ -11,7 +11,22 @@ This directory records the source-level evidence needed for Stages 1 to 3 of the
 - `01-mendelian-randomisation.md`: C1, C2, C3, M9, and M10.
 - `02-intervention-trials.md`: M2, C4, M3, and M13.
 - `03-triggers-diagnostics-guidelines.md`: M1, M11, M12, M13, C7b, and F1.
-- `verification-manifest.tsv`: one row per source with paired DOI, PMID, and PMCID; resolved title; source file; verification basis; full-text status; and verification date.
+- `verification-manifest.tsv`: one row per publication with DOI, PMID, and PMCID where assigned; resolved title; all evidence files that use it; verification basis; full-text status; and verification date.
+- `scripts/generate_manifest.py`: regenerates and deduplicates the manifest from the evidence records.
+- `scripts/verify_manifest.py`: checks identifier coverage, uniqueness, DOI-PMID-PMCID pairing, citation titles, evidence-file provenance, the official GOLD record, DOI resolution, placeholders, and file formatting.
+- `scripts/test_manifest.py`: regression tests for malformed citations, missing GOLD, invalid provenance, and incorrect PMCID data.
+
+## Reproducible verification
+
+Run both commands from the repository root:
+
+```bash
+python3 research/stage-0/scripts/generate_manifest.py
+python3 -m unittest -v research/stage-0/scripts/test_manifest.py
+python3 research/stage-0/scripts/verify_manifest.py
+```
+
+The verifier exits non-zero if an audit condition fails. Network access to PubMed and doi.org is required.
 
 ## Material corrections to the existing roadmap
 

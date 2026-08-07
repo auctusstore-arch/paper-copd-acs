@@ -17,7 +17,7 @@ Fröbert O, Götberg M, Erlinge D, et al. Influenza Vaccination After Myocardial
 - Population: 2,571 participants, 99.7% recruited after MI.
 - Primary endpoint at 12 months: all-cause death, MI, or stent thrombosis.
 - Result: 5.3% versus 7.2%, HR 0.72, 95% CI 0.52-0.99, p=0.040.
-- Location: abstract Results and main outcome table.
+- Location: PubMed abstract Results.
 
 The trial stopped before the planned sample size during the COVID-19 pandemic. It supports vaccination after MI, but it did not test a COPD-specific effect.
 
@@ -28,10 +28,11 @@ Loeb M, Dokainish H, Dans A, et al. Influenza vaccine to reduce adverse vascular
 - DOI: https://doi.org/10.1016/S2214-109X(22)00432-6
 - PMID: https://pubmed.ncbi.nlm.nih.gov/36400089/
 - Population: 5,129 patients with heart failure in low-income and middle-income countries.
-- Primary composite: 14.8% versus 16.0%, HR 0.93, 95% CI 0.81-1.07, p=0.30.
-- Location: Results and primary-outcome table.
+- First co-primary composite: 14.8% versus 16.0%, HR 0.93, 95% CI 0.81-1.07, p=0.30.
+- Second co-primary recurrent-events outcome: HR 0.92, 95% CI 0.84-1.02, p=0.12.
+- Location: PubMed abstract Results.
 
-The overall primary endpoint was neutral. Seasonal analyses suggested a stronger effect during peak influenza circulation, but they do not replace the primary result.
+Neither co-primary outcome showed a statistically significant reduction across the full follow-up. Seasonal analyses suggested a stronger effect during peak influenza circulation, but they do not replace the co-primary results.
 
 ### RCT meta-analysis
 
@@ -56,7 +57,7 @@ Modin D, Lassen MCH, Claggett B, et al. Influenza vaccination and cardiovascular
 - Primary composite: random-effects HR 0.74, 95% CI 0.63-0.88, p<0.001, I2=52%.
 - Cardiovascular death: HR 0.63, 95% CI 0.42-0.95.
 - All-cause death: HR 0.72, 95% CI 0.54-0.95.
-- Location: PubMed abstract Results and main forest plots.
+- Location: PubMed abstract Results.
 
 This analysis supplies the post-IVVE synthesis requested in the roadmap. Moderate heterogeneity and the inclusion of one non-peer-reviewed data set require explicit qualification. The authors report similar results after excluding the non-peer-reviewed data.
 

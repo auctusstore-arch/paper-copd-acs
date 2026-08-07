@@ -39,7 +39,7 @@ Smeeth L, Thomas SL, Hall AJ, Hubbard R, Farrington P, Vallance P. Risk of myoca
 - Design: self-controlled case series.
 - Population: 20,486 patients with first MI and 19,063 with first stroke.
 - Respiratory infection, days 1 to 3: MI incidence ratio 4.95, 95% CI 4.43-5.53; stroke incidence ratio 3.19, 95% CI 2.81-3.62.
-- Location: abstract Results and risk-interval tables.
+- Location: PubMed abstract Results.
 
 ### Warren-Gash et al. 2012
 
@@ -63,7 +63,7 @@ Kwong JC, Schwartz KL, Campitelli MA, et al. Acute myocardial infarction after l
 - MI during days 1 to 7: incidence ratio 6.05, 95% CI 3.86-9.50.
 - Influenza B: 10.11, 95% CI 4.37-23.38.
 - Influenza A: 5.17, 95% CI 3.02-8.84.
-- Location: abstract Results and pathogen-stratified analysis.
+- Location: PubMed abstract Results.
 
 These studies establish a general trigger literature that predates the COPD two-clock model. The manuscript should reposition novelty around testing substrate and trigger processes within the same COPD population, not around inventing the trigger concept.
 
@@ -117,7 +117,7 @@ Brekke PH, Omland T, Holmedal SH, Smith P, Soyseth V. Determinants of cardiac tr
 
 ### Hoiseth et al. 2011
 
-Hoiseth AD, Neukamm A, Karlsson BD, Omland T, Brekke PH, Soyseth V. Elevated high-sensitivity cardiac troponin T is associated with increased mortality after acute exacerbation of COPD. *Thorax.* 2011;66(9):775-781.
+Hoiseth AD, Neukamm A, Karlsson BD, Omland T, Brekke PH, Soyseth V. Elevated high-sensitivity cardiac troponin T is associated with increased mortality after acute exacerbation of chronic obstructive pulmonary disease. *Thorax.* 2011;66(9):775-781.
 
 - DOI: https://doi.org/10.1136/thx.2010.153122
 - PMID: https://pubmed.ncbi.nlm.nih.gov/21653926/
@@ -158,7 +158,7 @@ The guideline supports prompt 12-lead ECG, serial ECG when suspicion persists, a
 
 ### AHA/ACC Chest Pain 2021
 
-Gulati M, Levy PD, Mukherjee D, et al. 2021 AHA/ACC/ASE/CHEST/SAEM/SCCT/SCMR Guideline for the Evaluation and Diagnosis of Chest Pain. *Circulation.* 2021;144(22):e368-e454.
+Gulati M, Levy PD, Mukherjee D, et al. 2021 AHA/ACC/ASE/CHEST/SAEM/SCCT/SCMR Guideline for the Evaluation and Diagnosis of Chest Pain: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. *Circulation.* 2021;144(22):e368-e454.
 
 - DOI: https://doi.org/10.1161/CIR.0000000000001029
 - PMID: https://pubmed.ncbi.nlm.nih.gov/34709879/
@@ -167,7 +167,7 @@ This guideline supports rapid ECG, serial ECG when needed, and serial high-sensi
 
 ### ACC/AHA ACS 2025
 
-Rao SV, O'Donoghue ML, Ruel M, et al. 2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes. *Circulation.* 2025;151(13):e771-e862.
+Rao SV, O'Donoghue ML, Ruel M, et al. 2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. *Circulation.* 2025;151(13):e771-e862.
 
 - DOI: https://doi.org/10.1161/CIR.0000000000001309
 - PMID: https://pubmed.ncbi.nlm.nih.gov/40014670/
@@ -239,8 +239,25 @@ F1 should compare the manuscript's framing with the verified reviews above. GOLD
 
 ## Andell thesis replacement
 
-The original reference list includes Patrick Andell's 2016 Lund thesis, but the extracted body contains no citation to reference [35]. Remove the orphan reference unless a specific statement needs support. Suitable peer-reviewed Andell papers include:
+The original reference list includes Patrick Andell's 2016 Lund thesis, but the extracted body contains no citation to reference [35]. Remove the orphan reference unless a specific statement needs support. Suitable peer-reviewed Andell papers include the following records.
 
-- Andell P, Koul S, Martinsson A, et al. Impact of chronic obstructive pulmonary disease on morbidity and mortality after myocardial infarction. *Open Heart.* 2014;1:e000002. DOI: https://doi.org/10.1136/openhrt-2013-000002; PMID: https://pubmed.ncbi.nlm.nih.gov/25332773/.
-- Andell P, Erlinge D, Smith JG, et al. Beta-blocker use and mortality in COPD patients after myocardial infarction: a Swedish nationwide observational study. *J Am Heart Assoc.* 2015;4:e001611. DOI: https://doi.org/10.1161/JAHA.114.001611; PMID: https://pubmed.ncbi.nlm.nih.gov/25854796/.
-- Andell P, James S, Ostlund O, et al. Oxygen therapy in suspected acute myocardial infarction and concurrent normoxemic chronic obstructive pulmonary disease. *Eur Heart J Acute Cardiovasc Care.* 2020. DOI: https://doi.org/10.1177/2048872619848978; PMID: https://pubmed.ncbi.nlm.nih.gov/31081342/.
+### Andell et al. 2014
+
+Andell P, Koul S, Martinsson A, et al. Impact of chronic obstructive pulmonary disease on morbidity and mortality after myocardial infarction. *Open Heart.* 2014;1:e000002.
+
+- DOI: https://doi.org/10.1136/openhrt-2013-000002
+- PMID: https://pubmed.ncbi.nlm.nih.gov/25332773/
+
+### Andell et al. 2015
+
+Andell P, Erlinge D, Smith JG, et al. Beta-blocker use and mortality in COPD patients after myocardial infarction: a Swedish nationwide observational study. *J Am Heart Assoc.* 2015;4:e001611.
+
+- DOI: https://doi.org/10.1161/JAHA.114.001611
+- PMID: https://pubmed.ncbi.nlm.nih.gov/25854796/
+
+### Andell et al. 2020
+
+Andell P, James S, Ostlund O, et al. Oxygen therapy in suspected acute myocardial infarction and concurrent normoxemic chronic obstructive pulmonary disease: a prespecified subgroup analysis from the DETO2X-AMI trial. *Eur Heart J Acute Cardiovasc Care.* 2020;9(8):984-992.
+
+- DOI: https://doi.org/10.1177/2048872619848978
+- PMID: https://pubmed.ncbi.nlm.nih.gov/31081342/
