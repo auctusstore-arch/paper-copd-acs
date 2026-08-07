@@ -20,11 +20,16 @@ The user (dr. Muhammad Yusuf) was asked by his supervisor to fix this paper. A p
 | `Rangkuman consensus/` | Two AI-generated literature syntheses (COPD-MI correlation/causation; exacerbation-ACS). Use as leads to primary sources, never cite them. |
 | `Jurnal bacaan/` | 11 primary-source PDFs for expanding the discussion (see below). |
 | `stop-slop-main/` | Vendored copy of the stop-slop skill. `SKILL.md` plus `references/{phrases,structures,examples}.md`. |
+| `REVISION_PLAN.md` | The staged execution plan for this revision (Tahap 0-5), written from the checklist. |
+
+### Pre-parsed markdown for every PDF
+
+Every PDF in `Jurnal bacaan/`, `Rangkuman consensus/`, and `Contoh review article/` has a sibling `.md` file with the same basename (e.g. `Jurnal bacaan/01091-2024.pdf` → `Jurnal bacaan/01091-2024.md`). Each `.md` has a front-matter block (title, full citation, DOI, source path, relevance note) followed by the cleaned full text (running headers/footers and page numbers stripped, section headings marked with `##`). **Read the `.md` first** instead of re-running `pdftotext` — it's already deduplicated and readable. Only fall back to the PDF if you need something the text extraction lost (a figure, a table's exact layout).
 
 ### Jurnal bacaan inventory
 
 - `01091-2024.pdf` Nordon et al., ERJ Open Res 2024. EXACOS-CV meta-analyses, sustained CV risk after exacerbation.
-- `rccm.202307-1122OC.pdf` Graul et al., AJRCCM 2024;209:960-72. Temporal risk of nonfatal CV events post-exacerbation.
+- `rccm.202307-1122OC.pdf` Graul et al., AJRCCM 2024;209:960-72. Temporal risk of nonfatal CV events post-exacerbation. This is manuscript ref [16] — its `[author list to be verified]` marker (C7a) can now be resolved from the `.md`'s front matter.
 - `main.pdf` Wallström et al., Chest. Exacerbation history, MI **and pulmonary embolism** risk. Directly relevant to checklist item M11.
 - `10.1177_17534666221113647.pdf` Müllerová & Marshall, Ther Adv Respir Dis 2022. SR/MA of exacerbations and acute CV events.
 - `jcm-13-05173.pdf` Sá-Sousa et al., J Clin Med 2024. Systematic review, CV risk in COPD.
@@ -32,10 +37,10 @@ The user (dr. Muhammad Yusuf) was asked by his supervisor to fix this paper. A p
 - `copd-20-1435.pdf` Meng et al. Obstructive airway disease and CVD risk independent of phenotype.
 - `424_2024_Article_3013.pdf` Gillan et al., Pflügers Arch 2025. Immune mediators in heart-lung communication (mechanism/spillover side).
 - `pone.0265682.pdf` Svendsen et al., PLOS ONE. Factors associated with CHD in COPD patients and controls.
-- `fcvm-11-1362564.pdf` Front Cardiovasc Med 2024, inflammation as nexus between AMI and COPD.
+- `fcvm-11-1362564.pdf` Front Cardiovasc Med 2024, inflammation as nexus between AMI and COPD. This is manuscript ref [4] — currently cited with article number **1362437**, which is wrong; the correct number, confirmed from this PDF, is **1362564**. Fix during C7a.
 - `jcm-13-07324.pdf` von Lewinski et al. Air pollution and MI, smoker's paradox.
 
-Note: several papers the checklist demands (IAMI, BICS, PACE, Au Yeung 2022, Higbee 2021, CANTOS/CIRT/COLCOT, DETO2X-AMI, Smeeth 2004, Kwong 2018) are **not** in `Jurnal bacaan/`. Those need retrieval before the corresponding items can be closed.
+Note: several papers the checklist demands (IAMI, BICS, PACE, Au Yeung 2022, Higbee 2021, CANTOS/CIRT/COLCOT, DETO2X-AMI, Smeeth 2004, Kwong 2018) are **not** in `Jurnal bacaan/`. Those need retrieval (Tahap 0 of `REVISION_PLAN.md`) before the corresponding items can be closed.
 
 ## Manuscript structure
 
