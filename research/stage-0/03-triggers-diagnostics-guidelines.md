@@ -2,6 +2,10 @@
 
 Items: M1, M11, M12, M13, C7b, F1
 
+Source-location convention: unless a record names another location, numeric results come from the PubMed abstract Results section. The verification manifest records whether PMC full text was available or the check was limited to the abstract and DOI metadata.
+
+Record convention: citation and bullets report source facts. The prose after those bullets states the interpretation permitted for the manuscript.
+
 ## Trigger framework
 
 ### Muller 1989
@@ -45,7 +49,7 @@ Warren-Gash C, Hayward AC, Hemingway H, et al. Influenza infection and risk of a
 - PMID: https://pubmed.ncbi.nlm.nih.gov/23048170/
 - PMCID: https://pmc.ncbi.nlm.nih.gov/articles/PMC3488196/
 - Design: self-controlled case series using linked health records.
-- Highest estimate during days 1 to 3 after recorded influenza or acute respiratory infection: incidence ratio about 4.19, 95% CI 3.18-5.53.
+- Highest estimate during days 1 to 3 after an acute respiratory infection consultation: incidence ratio 4.19, 95% CI 3.18-5.53.
 
 The exposure was largely record-based. Do not label every case laboratory-confirmed influenza.
 
@@ -127,7 +131,7 @@ McAllister DA, Maclay JD, Mills NL, et al. Diagnosis of myocardial infarction fo
 - DOI: https://doi.org/10.1183/09031936.00124811
 - PMID: https://pubmed.ncbi.nlm.nih.gov/22323574/
 - Population: 242 patients hospitalised with AECOPD.
-- About 10% had elevated troponin and 8.3% met the Universal Definition of MI after adjudication.
+- About 10% had elevated troponin and 8.3% met the Universal Definition of MI from elevated troponin plus chest pain and/or serial ECG changes.
 
 These peer-reviewed sources should replace the Cureus review when the manuscript discusses frequency, prognosis, or adjudicated MI. Troponin elevation is common and prognostic, but a single positive value does not identify type 1 MI.
 
@@ -163,9 +167,10 @@ This guideline supports rapid ECG, serial ECG when needed, and serial high-sensi
 
 ### ACC/AHA ACS 2025
 
-Rao SV, O'Donoghue ML, Ruel M, et al. 2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes. *Circulation.* 2025.
+Rao SV, O'Donoghue ML, Ruel M, et al. 2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes. *Circulation.* 2025;151(13):e771-e862.
 
 - DOI: https://doi.org/10.1161/CIR.0000000000001309
+- PMID: https://pubmed.ncbi.nlm.nih.gov/40014670/
 - Official hub: https://www.acc.org/Guidelines/Hubs/Acute-Coronary-Syndromes
 
 The oxygen recommendation is consistent with ESC guidance: treat hypoxaemia and avoid routine oxygen in patients without it. The final PDF should be used to supply the exact table and page in the revised manuscript.
@@ -177,6 +182,8 @@ The oxygen recommendation is consistent with ESC guidance: treat hypoxaemia and 
 Goedemans L, Bax JJ, Delgado V. COPD and acute myocardial infarction. *Eur Respir Rev.* 2020;29(156):190139.
 
 - DOI: https://doi.org/10.1183/16000617.0139-2019
+- PMID: https://pubmed.ncbi.nlm.nih.gov/32581139/
+- PMCID: https://pmc.ncbi.nlm.nih.gov/articles/PMC9488987/
 - Type: review focused on COPD and acute MI.
 
 ### Polman et al. 2024
@@ -184,6 +191,7 @@ Goedemans L, Bax JJ, Delgado V. COPD and acute myocardial infarction. *Eur Respi
 Polman R, Hurst JR, Uysal OF, Mandal S, Linz D, Simons S. Cardiovascular disease and risk in COPD: a state of the art review. *Expert Rev Cardiovasc Ther.* 2024;22(4-5):177-191.
 
 - DOI: https://doi.org/10.1080/14779072.2024.2333786
+- PMID: https://pubmed.ncbi.nlm.nih.gov/38529639/
 - Type: state-of-the-art review.
 
 ### Singh et al. 2024
@@ -205,13 +213,29 @@ Heffernan M, Rutherford S. The Intersection of Chronic Obstructive Pulmonary Dis
 
 ### Rhee et al. 2025
 
-Rhee CK, Ko FWS, Giap VV, et al. Management of COPD With Cardiovascular Risk in Asia: A Review by the Asian Pacific Society of Respirology COPD Assembly. *Respirology.* 2025;30.
+Rhee CK, Ko FWS, Giap VV, et al. Management of COPD With Cardiovascular Risk in Asia: A Review by the Asian Pacific Society of Respirology COPD Assembly. *Respirology.* 2025;30(9):817-830.
 
 - DOI: https://doi.org/10.1111/resp.70103
 - PMID: https://pubmed.ncbi.nlm.nih.gov/40785398/
 - Type: society assembly review.
 
-F1 should compare the manuscript's framing with these reviews. Leong and Bardin 2021 can remain a perspective, and GOLD 2025 can remain a strategy report, but neither should be counted as a narrative review.
+### GOLD 2025
+
+Global Initiative for Chronic Obstructive Lung Disease. Global Strategy for the Diagnosis, Management, and Prevention of Chronic Obstructive Pulmonary Disease: 2025 Report. GOLD; 2025.
+
+- Official report page: https://goldcopd.org/2025-gold-report/
+- Type: evidence-based strategy report, not a narrative review.
+- Relevant location: chapters on comorbid cardiovascular disease and differential diagnosis of exacerbations.
+
+### Leong and Bardin 2021
+
+Leong P, Bardin PG. The untreated treatable trait: cardiovascular disease in COPD exacerbations. *Respirology.* 2021;26(5):413-415.
+
+- DOI: https://doi.org/10.1111/resp.14036
+- PMID: https://pubmed.ncbi.nlm.nih.gov/33751741/
+- Type: commentary or perspective, not a comprehensive narrative review.
+
+F1 should compare the manuscript's framing with the verified reviews above. GOLD 2025 can support strategy-level statements, and Leong and Bardin can support clinical framing. Neither source should be counted as a narrative review.
 
 ## Andell thesis replacement
 

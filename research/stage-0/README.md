@@ -11,7 +11,7 @@ This directory records the source-level evidence needed for Stages 1 to 3 of the
 - `01-mendelian-randomisation.md`: C1, C2, C3, M9, and M10.
 - `02-intervention-trials.md`: M2, C4, M3, and M13.
 - `03-triggers-diagnostics-guidelines.md`: M1, M11, M12, M13, C7b, and F1.
-- `verification-manifest.tsv`: machine-checkable DOI and PubMed identifiers.
+- `verification-manifest.tsv`: one row per source with paired DOI, PMID, and PMCID; resolved title; source file; verification basis; full-text status; and verification date.
 
 ## Material corrections to the existing roadmap
 

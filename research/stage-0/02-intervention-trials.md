@@ -2,6 +2,10 @@
 
 Items: M2, C4, M3, M13
 
+Source-location convention: unless a record names another table or analysis, primary endpoint values come from the PubMed abstract Results section. The verification manifest records whether PMC full text was available or the check was limited to the abstract and DOI metadata.
+
+Record convention: citation and bullets report source facts. The prose after those bullets states the interpretation permitted for the manuscript.
+
 ## Influenza vaccination
 
 ### IAMI
@@ -19,12 +23,12 @@ The trial stopped before the planned sample size during the COVID-19 pandemic. I
 
 ### IVVE
 
-Loeb M, Dokainish H, Dans A, et al. Influenza vaccination to reduce cardiovascular morbidity and mortality in patients with cardiovascular disease: a multicentre, randomised, placebo-controlled trial. *Lancet Glob Health.* 2022;10(12):e1835-e1844.
+Loeb M, Dokainish H, Dans A, et al. Influenza vaccine to reduce adverse vascular events in patients with heart failure: a multinational randomised, double-blind, placebo-controlled trial. *Lancet Glob Health.* 2022;10(12):e1835-e1844.
 
 - DOI: https://doi.org/10.1016/S2214-109X(22)00432-6
 - PMID: https://pubmed.ncbi.nlm.nih.gov/36400089/
-- Population: 5,129 patients with heart failure or high-risk coronary disease in low-income and middle-income countries.
-- Primary composite: 14.8% versus 16.0%, HR 0.93, 95% CI 0.81-1.06, p=0.29.
+- Population: 5,129 patients with heart failure in low-income and middle-income countries.
+- Primary composite: 14.8% versus 16.0%, HR 0.93, 95% CI 0.81-1.07, p=0.30.
 - Location: Results and primary-outcome table.
 
 The overall primary endpoint was neutral. Seasonal analyses suggested a stronger effect during peak influenza circulation, but they do not replace the primary result.

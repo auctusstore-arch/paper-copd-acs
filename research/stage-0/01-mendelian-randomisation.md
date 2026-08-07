@@ -2,6 +2,8 @@
 
 Items: C1, C2, C3, M9, M10
 
+Source-location convention: numeric results come from the cited source's Results section or results table. The record names the table when the full text exposes one. The verification manifest identifies records reviewed through PMC full text and records limited to PubMed abstracts or DOI metadata.
+
 ## 1. Yu et al. 2024
 
 **Citation:** Yu G, Liu L, Ma Q, Han F, He H. Bidirectional Causal Association Between Chronic Obstructive Pulmonary Disease and Cardiovascular Diseases: A Mendelian Randomization Study. *Int J Chron Obstruct Pulmon Dis.* 2024;19:2109-2122.
@@ -52,6 +54,8 @@ Lower FVC was associated with CAD: OR 1.32 per 1 SD decrease, 95% CI 1.19-1.46. 
 ### Interpretation for the manuscript
 
 The supported signal concerns FVC, not COPD obstruction. M10 should replace `FEV1 equals obstruction` with explicit distinction among FEV1, FVC, and FEV1/FVC. The result cannot be used to claim that COPD itself causes CAD.
+
+The PubMed abstract states that airflow obstruction did not appear to increase cardiovascular events, but it does not report the exact FEV1/FVC coefficient. The publisher blocked full-text retrieval during Stage 0. Record the qualitative result now and retrieve the supplementary table before inserting an exact FEV1/FVC estimate in Stage 2.
 
 ## 3. Au Yeung et al. 2022
 
