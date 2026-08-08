@@ -479,8 +479,8 @@ def main():
             remapped = builder.remap_citations(replacement)
             builder.replace_paragraph(paragraphs[index], remapped)
 
-    # 6b. Fix remaining American spellings in unreplaced body paragraphs
-    # Only fix in body text, NOT in reference list (paper titles may use American spelling)
+    # 6b. Fix remaining American spellings and em-dashes in unreplaced body paragraphs and table cells
+    # Also fix Table 2 MVMR row, duplicate paragraphs, "did nothing detectable", duplicate keywords
     ref_start_idx = None
     for i, p in enumerate(paragraphs):
         if builder.text(p).strip() == "References":
@@ -488,12 +488,50 @@ def main():
             break
     if ref_start_idx is None:
         ref_start_idx = len(paragraphs)
+
+    # Fix American spellings in body (not reference titles)
     for p in paragraphs[:ref_start_idx]:
         for t_node in p.iter(W + "t"):
             if t_node.text and "randomization" in t_node.text:
                 t_node.text = t_node.text.replace("randomization", "randomisation")
             if t_node.text and "randomized" in t_node.text:
                 t_node.text = t_node.text.replace("randomized", "randomised")
+
+    # Fix em-dashes in ALL text nodes (body + tables, not reference titles)
+    for p in paragraphs:
+        for t_node in p.iter(W + "t"):
+            if t_node.text and "\u2014" in t_node.text:
+                t_node.text = t_node.text.replace("\u2014", ": ")
+            if t_node.text and "\u2014" in t_node.text:
+                t_node.text = t_node.text.replace("\u2014", ": ")
+
+    # Fix em-dashes in table cells too
+    tables = document.findall(".//" + W + "tbl")
+    for tbl in tables:
+        for t_node in tbl.iter(W + "t"):
+            if t_node.text and "\u2014" in t_node.text:
+                t_node.text = t_node.text.replace("\u2014", ": ")
+
+    # Fix Table 2 MVMR row: "Attenuates to non-significance after BMI, smoking, FEV1"
+    # should be "Attenuates to non-significance after IL-6, LDL, total cholesterol"
+    for tbl in tables:
+        for t_node in tbl.iter(W + "t"):
+            if t_node.text and "BMI, smoking, FEV1" in t_node.text:
+                t_node.text = t_node.text.replace(
+                    "Attenuates to non-significance after BMI, smoking, FEV1 [7]",
+                    "Attenuates to non-significance after IL-6, LDL, total cholesterol [7]"
+                )
+            if t_node.text and "BMI, smoking, FEV1" in t_node.text:
+                t_node.text = t_node.text.replace("BMI, smoking, FEV1", "IL-6, LDL, total cholesterol")
+
+    # Fix "did nothing detectable to the heart" — replace with calibrated language
+    for p in paragraphs:
+        for t_node in p.iter(W + "t"):
+            if t_node.text and "did nothing detectable to the heart" in t_node.text:
+                t_node.text = t_node.text.replace(
+                    "It did nothing detectable to the heart.",
+                    "It did not reduce the cardiovascular composite (hazard ratio 0.93, 95% confidence interval 0.75-1.14); the trial was underpowered for this endpoint."
+                )
 
     # 7. Apply Stage 4 insertions (keywords, front matter, figure brief)
     for name, (after_index, text) in s4_insertions.items():
