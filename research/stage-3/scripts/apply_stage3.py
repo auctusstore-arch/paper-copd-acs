@@ -194,6 +194,7 @@ def stage3_additions():
                 15,
                 "Recent narrative reviews have begun to integrate cardiopulmonary risk into COPD management "
                 "rather than treating systemic inflammation as the sole organising principle [47,48,65,66]. "
+                "This review adheres to the SANRA quality criteria for narrative review articles [67]. "
                 "The framing of this review as a corrective to a dominant spillover narrative should be read "
                 "as a misplaced emphasis in the literature, not as a hypothesis that has expired."
             ),
