@@ -134,13 +134,13 @@ def load_stage2_additions():
             "m1_trigger": (
                 17,
                 "The transient-trigger framework predates this review by decades. "
-                "Muller and colleagues described circadian variation and morning clustering of acute cardiovascular events in 1989 [15]. "
-                "Mittleman and Mostofsky later catalogued physical, psychological and chemical triggers acting on a susceptible substrate [16]. "
+                "Muller and colleagues described circadian variation and morning clustering of acute cardiovascular events in 1989 [13]. "
+                "Mittleman and Mostofsky later catalogued physical, psychological and chemical triggers acting on a susceptible substrate [14]. "
                 "Smeeth and colleagues applied a self-controlled design to 20,486 patients with first myocardial infarction and reported "
-                "a 4.95-fold incidence ratio (95% confidence interval 4.43-5.53) in the three days after a respiratory infection [17]. "
-                "Warren-Gash and colleagues confirmed a similar temporal association using linked electronic health records [18], "
+                "a 4.95-fold incidence ratio (95% confidence interval 4.43-5.53) in the three days after a respiratory infection [15]. "
+                "Warren-Gash and colleagues confirmed a similar temporal association using linked electronic health records [16], "
                 "and Kwong and colleagues extended it to laboratory-confirmed influenza, reporting an incidence ratio of 6.05 "
-                "(95% confidence interval 3.86-9.50) for myocardial infarction in the seven days after specimen collection [19]. "
+                "(95% confidence interval 3.86-9.50) for myocardial infarction in the seven days after specimen collection [17]. "
                 "The substrate-trigger distinction is therefore not new. The contribution of this review is to apply it to COPD "
                 "as an organising synthesis that separates chronic susceptibility evidence from acute post-exacerbation risk evidence "
                 "within the same clinical domain."
@@ -151,9 +151,9 @@ def load_stage2_additions():
                 "Two subsequent trials tested beta-blockers in COPD without a cardiovascular indication. "
                 "BICS randomised 519 patients with COPD at high exacerbation risk to bisoprolol or placebo; "
                 "the primary analysis included 515 participants and reported an adjusted incidence-rate ratio of 0.97 "
-                "(95% confidence interval 0.84-1.13, p=0.72) for treated exacerbations [45]. "
+                "(95% confidence interval 0.84-1.13, p=0.72) for treated exacerbations [39]. "
                 "PACE randomised 280 patients with COPD and prior exacerbation to bisoprolol or placebo and reported "
-                "a win ratio of 0.95 (95% confidence interval 0.72-1.25, p=0.72) for a hierarchical cardiopulmonary composite [46]. "
+                "a win ratio of 0.95 (95% confidence interval 0.72-1.25, p=0.72) for a hierarchical cardiopulmonary composite [40]. "
                 "Neither trial tested patients with an established cardiovascular indication, and neither provides evidence "
                 "for or against beta-blockade after myocardial infarction in COPD."
             ),
@@ -163,12 +163,12 @@ def load_stage2_additions():
                 "Three contemporary trials examined beta-blockade after myocardial infarction in patients with preserved "
                 "left ventricular ejection fraction. ABYSS tested interruption of established beta-blocker therapy "
                 "a median of 2.9 years after infarction in 3,698 patients; noninferiority was not met "
-                "(hazard ratio 1.16, 95% confidence interval 1.01-1.33) [47]. "
+                "(hazard ratio 1.16, 95% confidence interval 1.01-1.33) [44]. "
                 "REBOOT randomised 8,438 patients with invasively managed infarction and ejection fraction greater than 40% "
                 "to beta-blocker or no beta-blocker and reported a hazard ratio of 1.04 "
-                "(95% confidence interval 0.89-1.22, p=0.63) for the primary composite [48]. "
+                "(95% confidence interval 0.89-1.22, p=0.63) for the primary composite [46]. "
                 "BETAMI-DANBLOCK randomised 5,574 patients with infarction, ejection fraction at least 40%, and no heart failure "
-                "and reported a hazard ratio of 0.85 (95% confidence interval 0.75-0.98, p=0.03) for all-cause death or major adverse cardiovascular events [49]. "
+                "and reported a hazard ratio of 0.85 (95% confidence interval 0.75-0.98, p=0.03) for all-cause death or major adverse cardiovascular events [45]. "
                 "None of these trials tested a COPD-specific interaction, and their divergent results caution against "
                 "a single summary statement about beta-blocker efficacy after infarction in patients with COPD."
             ),
@@ -178,15 +178,15 @@ def load_stage2_additions():
                 "Influenza vaccination provides the strongest randomised evidence for cardiovascular event reduction "
                 "in populations with established coronary disease. IAMI randomised 2,532 patients shortly after myocardial infarction "
                 "to influenza vaccine or placebo and reported a hazard ratio of 0.72 (95% confidence interval 0.52-0.99, p=0.040) "
-                "for the composite of all-cause death, myocardial infarction, or stent thrombosis at 12 months [50]. "
+                "for the composite of all-cause death, myocardial infarction, or stent thrombosis at 12 months [49]. "
                 "IVVE randomised 5,129 patients with heart failure in low-income and middle-income countries; "
                 "neither co-primary endpoint showed a statistically significant reduction across the full follow-up "
-                "(first co-primary hazard ratio 0.93, 95% confidence interval 0.81-1.07, p=0.30) [51]. "
+                "(first co-primary hazard ratio 0.93, 95% confidence interval 0.81-1.07, p=0.30) [50]. "
                 "A post-IVVE meta-analysis of six randomised trials including 9,340 patients reported a random-effects "
                 "hazard ratio of 0.74 (95% confidence interval 0.63-0.88, p<0.001) for the cardiovascular composite, "
-                "with moderate heterogeneity (I²=52%) [52]. "
+                "with moderate heterogeneity (I²=52%) [51]. "
                 "A more recent mixed-design synthesis of 23 studies confirmed the direction of benefit but combined "
-                "randomised and observational evidence and should not be interpreted as a causal trial estimate [53]. "
+                "randomised and observational evidence and should not be interpreted as a causal trial estimate [52]. "
                 "None of these studies tested a COPD-specific vaccination effect, and the evidence supports vaccination "
                 "on cardiovascular grounds rather than through a COPD-specific mechanism."
             ),
@@ -197,15 +197,15 @@ def load_stage2_additions():
                 "CANTOS demonstrated that canakinumab, a monoclonal antibody targeting interleukin-1β, reduced the composite "
                 "of nonfatal myocardial infarction, nonfatal stroke, or cardiovascular death in 10,061 patients with prior "
                 "myocardial infarction and residual inflammatory risk (hazard ratio 0.85, 95% confidence interval 0.74-0.98, "
-                "p=0.021 for the 150 mg dose) [54]. "
+                "p=0.021 for the 150 mg dose) [59]. "
                 "CIRT tested low-dose methotrexate in 4,786 patients with prior infarction or multivessel coronary disease "
                 "plus diabetes or metabolic syndrome and found no cardiovascular benefit (hazard ratio 0.96, "
                 "95% confidence interval 0.79-1.16, p=0.67); methotrexate did not lower interleukin-1β, interleukin-6, "
-                "or high-sensitivity C-reactive protein [55]. "
+                "or high-sensitivity C-reactive protein [60]. "
                 "COLCOT demonstrated that low-dose colchicine started within 30 days after myocardial infarction reduced "
-                "the primary composite endpoint (hazard ratio 0.77, 95% confidence interval 0.61-0.96, p=0.02) [56], "
+                "the primary composite endpoint (hazard ratio 0.77, 95% confidence interval 0.61-0.96, p=0.02) [61], "
                 "and LoDoCo2 extended this finding to 5,522 patients with chronic coronary disease after a tolerance run-in "
-                "(hazard ratio 0.69, 95% confidence interval 0.57-0.83, p<0.001) [57]. "
+                "(hazard ratio 0.69, 95% confidence interval 0.57-0.83, p<0.001) [62]. "
                 "These trials establish that pathway-specific anti-inflammatory efficacy exists in coronary populations. "
                 "They do not test whether COPD modifies the treatment effect, and the prediction that anti-inflammatory agents "
                 "will behave identically in patients with and without COPD after stratification by coronary substrate "
@@ -220,37 +220,37 @@ def load_stage2_additions():
                 "and disease-specific pathways whose independent contribution remains uncertain. "
                 "A fast clock describes the acute physiological and thrombotic stresses that follow an exacerbation. "
                 "The transient-trigger concept is not new: Muller and colleagues described circadian variation "
-                "and morning clustering of acute cardiovascular events in 1989 [15], and subsequent work established "
-                "respiratory infections as short-term myocardial infarction triggers [17-19]. "
+                "and morning clustering of acute cardiovascular events in 1989 [13], and subsequent work established "
+                "respiratory infections as short-term myocardial infarction triggers [15-17]. "
                 "The contribution of this review is to apply that framework to COPD as an organising synthesis "
                 "that separates chronic susceptibility evidence from acute post-exacerbation risk evidence "
                 "within the same clinical domain, rather than placing unlike estimands on a common numerical scale."
             ),
             # Paragraph 63: replace BLOCK-COPD paragraph with expanded version
             63: (
-                "BLOCK-COPD randomised exacerbation-prone patients with COPD — explicitly excluding anyone "
-                "with an established indication for the drug — to extended-release metoprolol or placebo. "
+                "BLOCK-COPD randomised exacerbation-prone patients with COPD, explicitly excluding anyone "
+                "with an established indication for the drug, to extended-release metoprolol or placebo. "
                 "It was stopped early for futility and safety. There was no difference in time to first exacerbation, "
                 "and metoprolol was associated with a markedly higher risk of exacerbation requiring hospitalisation: "
-                "hazard ratio 1.91 (1.29-2.83) [33]. "
+                "hazard ratio 1.91 (1.29-2.83) [38]. "
                 "BICS and PACE subsequently confirmed neutral results for bisoprolol in COPD without a cardiovascular "
                 "indication, with adjusted incidence-rate ratios of 0.97 (0.84-1.13) and a win ratio of 0.95 (0.72-1.25) "
-                "respectively [45,46]. None of these trials tested patients who required a beta-blocker for an established "
+                "respectively [39,40]. None of these trials tested patients who required a beta-blocker for an established "
                 "cardiac indication."
             ),
             # Paragraph 64: replace post-MI beta-blocker paragraph with expanded version
             64: (
                 "Now take the same drug class to the same disease in patients who do have a cardiac indication. "
                 "After myocardial infarction, β-blocker prescription at discharge in patients with COPD is not associated "
-                "with excess mortality or adverse cardiopulmonary outcomes (hazard ratio 1.01, 0.66-1.54) [34]; "
-                "population cohorts report reduced mortality [35]; and among 65,699 patients with COPD prescribed "
+                "with excess mortality or adverse cardiopulmonary outcomes (hazard ratio 1.01, 0.66-1.54) [41]; "
+                "population cohorts report reduced mortality [42]; and among 65,699 patients with COPD prescribed "
                 "β-blockers after first infarction, cardioselective agents outperformed non-selective ones for mortality "
                 "(hazard ratio 0.93), major adverse cardiac and cerebrovascular events (0.96), heart-failure hospitalisation "
-                "(subdistribution hazard ratio 0.84) and major adverse pulmonary events (0.94) [36]. "
+                "(subdistribution hazard ratio 0.84) and major adverse pulmonary events (0.94) [43]. "
                 "Three contemporary trials examined beta-blockade after infarction in patients with preserved ejection fraction. "
-                "ABYSS did not meet noninferiority for interruption of established therapy (hazard ratio 1.16, 1.01-1.33) [47]. "
-                "REBOOT found no benefit of initiation after invasively managed infarction (hazard ratio 1.04, 0.89-1.22) [48]. "
-                "BETAMI-DANBLOCK reported a modest reduction in the primary composite (hazard ratio 0.85, 0.75-0.98) [49]. "
+                "ABYSS did not meet noninferiority for interruption of established therapy (hazard ratio 1.16, 1.01-1.33) [44]. "
+                "REBOOT found no benefit of initiation after invasively managed infarction (hazard ratio 1.04, 0.89-1.22) [46]. "
+                "BETAMI-DANBLOCK reported a modest reduction in the primary composite (hazard ratio 0.85, 0.75-0.98) [45]. "
                 "None of these trials tested a COPD-specific interaction."
             ),
             # Paragraph 69: replace clinical implications vaccination paragraph
@@ -258,26 +258,26 @@ def load_stage2_additions():
                 "In the patient with stable COPD, cardiovascular risk should be assessed and treated on cardiovascular grounds, "
                 "using conventional tools, and not deferred because the dyspnoea has a respiratory label. This is the slow clock, "
                 "and it responds to slow-clock medicine. There is no evidence supporting cardiovascular drugs beyond established "
-                "cardiovascular indications in order to improve COPD outcomes [37], and BLOCK-COPD is a warning against trying [33]. "
-                "Conversely, exacerbation prevention — vaccination, appropriate inhaled therapy, pulmonary rehabilitation, "
-                "smoking cessation — should be understood as cardiovascular prevention in the exacerbation-prone patient, "
-                "which is how the ETHOS signal is best read and how the recent cardiopulmonary-risk framing has begun to move [30,37,38]. "
+                "cardiovascular indications in order to improve COPD outcomes [47], and BLOCK-COPD is a warning against trying [38]. "
+                "Conversely, exacerbation prevention: vaccination, appropriate inhaled therapy, pulmonary rehabilitation, "
+                "smoking cessation, should be understood as cardiovascular prevention in the exacerbation-prone patient, "
+                "which is how the ETHOS signal is best read and how the recent cardiopulmonary-risk framing has begun to move [35,47,48]. "
                 "Influenza vaccination provides the strongest randomised evidence: IAMI reported a hazard ratio of 0.72 "
-                "(0.52-0.99) for the cardiovascular composite after myocardial infarction [50], and a post-IVVE meta-analysis "
-                "of six trials reported a pooled hazard ratio of 0.74 (0.63-0.88) [52]. These trials support vaccination "
+                "(0.52-0.99) for the cardiovascular composite after myocardial infarction [49], and a post-IVVE meta-analysis "
+                "of six trials reported a pooled hazard ratio of 0.74 (0.63-0.88) [51]. These trials support vaccination "
                 "on cardiovascular grounds; they do not test a COPD-specific mechanism."
             ),
             # Paragraph 78: replace predictions anti-inflammatory paragraph
             78: (
                 "It predicts that β-blocker benefit in COPD tracks cardiac indication and not COPD severity, "
                 "and that trials enrolling patients with substrate will not reproduce BLOCK-COPD's harm signal. "
-                "It predicts that anti-inflammatory agents with proven atherothrombotic efficacy — low-dose colchicine, "
-                "interleukin-1β or interleukin-6 pathway inhibition — will behave in COPD as they behave in anyone else "
+                "It predicts that anti-inflammatory agents with proven atherothrombotic efficacy, low-dose colchicine, "
+                "interleukin-1β or interleukin-6 pathway inhibition, will behave in COPD as they behave in anyone else "
                 "with the same coronary substrate, with no COPD-specific increment. "
                 "CANTOS, COLCOT, and LoDoCo2 established pathway-specific anti-inflammatory benefit in coronary populations "
-                "without COPD [54,56,57], while CIRT demonstrated that a generic anti-inflammatory label does not predict "
+                "without COPD [59,61,62], while CIRT demonstrated that a generic anti-inflammatory label does not predict "
                 "cardiovascular efficacy when the intervention fails to suppress the interleukin-1β to interleukin-6 to "
-                "C-reactive protein axis [55]. A COPD-specific treatment-effect increment would be direct evidence "
+                "C-reactive protein axis [60]. A COPD-specific treatment-effect increment would be direct evidence "
                 "of a shared inflammatory mechanism and would substantially revive the hypothesis this review rejects."
             ),
         },
@@ -285,29 +285,40 @@ def load_stage2_additions():
 
 
 def build_citation_map():
-    """Build the final 62-reference citation map from the Stage 2 seed."""
-    with (STAGE / "reference-seed.tsv").open(encoding="utf-8", newline="") as handle:
-        rows = list(csv.DictReader(handle, delimiter="\t"))
-    # Map old citation numbers to new ones based on position
-    # Stage 1 had 44 refs; Stage 2 adds 18 new refs inserted at specific positions
-    # The seed already has the final order; we need to map old→new
+    """Build the S1→S2 citation map with variable shifts.
+
+    Stage 2 seed inserts new refs at multiple positions:
+      13-17:  M1 trigger precedent (Muller, Mittleman, Smeeth, Warren-Gash, Kwong)  → +5 for old 13+
+      39-40:  C4 COPD beta-blocker trials (BICS, PACE)                               → +7 for old 34+
+      44-46:  C4 post-MI beta-blocker trials (ABYSS/REBOOT, BETAMI-DANBLOCK)        → +10 for old 37+
+      49-52:  M2 influenza vaccination (IAMI, IVVE, Modin, Hosseini)               → +14 for old 39+
+      59-62:  M3 anti-inflammatory (CANTOS, CIRT, COLCOT, LoDoCo2)                  → +18 for old 39+ (but +14 already applied)
+
+    Actual shifts by S1 ref range:
+      S1[1-12]  → S2[1-12]    (shift +0)
+      S1[13-33] → S2[18-38]   (shift +5)
+      S1[34-36] → S2[41-43]   (shift +7)
+      S1[37-38] → S2[47-48]   (shift +10)
+      S1[39-44] → S2[53-58]   (shift +14)
+    """
     citation_map = {}
-    for row in rows:
-        disposition = row.get("disposition", "")
-        if "Renumbered" in disposition or "Retained" in disposition or "Corrects" in disposition or "Completes" in disposition or "Primary replacement" in disposition or "Peer-reviewed replacement" in disposition or "COPD-specific" in disposition:
-            # These are existing refs that were in Stage 1
-            # We need to find their old number from the Stage 1 seed
-            pass
-    # For now, use a direct mapping based on the known Stage 1→Stage 2 shifts
-    # Stage 1 had 44 refs; new refs inserted at positions 13-17 (M1), 45-46 (C4 COPD), 47-49 (C4 post-MI), 50-53 (M2), 54-57 (M3)
-    # Old refs 13-44 shift by +5 (M1), then +2 (C4 COPD), then +3 (C4 post-MI), then +4 (M2), then +4 (M3)
-    # Total shift for old refs 13+: +5+2+3+4+4 = +18
-    # Old refs 1-12 stay same
-    citation_map = {}
+    # Old refs 1-12: no shift
     for old in range(1, 13):
         citation_map[str(old)] = str(old)
-    for old in range(13, 45):
-        citation_map[str(old)] = str(old + 18)
+    # Old refs 13-33: shift +5 (M1 inserts 5 refs at 13-17)
+    for old in range(13, 34):
+        citation_map[str(old)] = str(old + 5)
+    # Old refs 34-36: shift +7 (BICS+PACE insert 2 refs at 39-40)
+    for old in range(34, 37):
+        citation_map[str(old)] = str(old + 7)
+    # Old refs 37-38: shift +10 (ABYSS/REBOOT/BETAMI insert 3 refs at 44-46)
+    for old in range(37, 39):
+        citation_map[str(old)] = str(old + 10)
+    # Old refs 39-44: shift +14 (IAMI/IVVE/Modin/Hosseini insert 4 refs at 49-52)
+    for old in range(39, 45):
+        citation_map[str(old)] = str(old + 14)
+    # Identity mapping for new S2 refs is NOT needed because Stage 2 texts use S2 numbers directly
+    # and only Stage 1 text (which uses S1 numbers) goes through remap_citations.
     return citation_map
 
 
@@ -347,17 +358,23 @@ def main():
 
     paragraphs = [child for child in body if child.tag == W + "p"]
 
-    # Apply paragraph replacements (Stage 1 + Stage 2)
-    for key, replacement in config["paragraph_replacements"].items():
+    # Apply Stage 1 paragraph replacements (with S1→S2 citation remapping)
+    s1_replacements = {str(k): v for k, v in stage1_config.get("paragraph_replacements", {}).items()}
+    for key, replacement in s1_replacements.items():
         index = int(key)
         if index < len(paragraphs):
             remapped = builder.remap_citations(replacement)
             builder.replace_paragraph(paragraphs[index], remapped)
 
-    # Apply Stage 2 insertions (new paragraphs)
+    # Apply Stage 2 replacements (texts already use final S2 citation numbers, no remap)
+    for key, replacement in stage2_additions["replacements"].items():
+        index = int(key)
+        if index < len(paragraphs):
+            builder.replace_paragraph(paragraphs[index], replacement)
+
+    # Apply Stage 2 insertions (texts already use final S2 citation numbers, no remap)
     for name, (after_index, text) in stage2_additions["insertions"].items():
-        remapped = builder.remap_citations(text)
-        builder.insert_paragraph_after(body, after_index, remapped)
+        builder.insert_paragraph_after(body, after_index, text)
 
     # Apply table replacements (Stage 1)
     for key, replacement in config["table_replacements"].items():
